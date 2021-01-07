@@ -1,0 +1,7 @@
+Second line: #rows, #columns #jewels. Other lines: H-horizontal path, V-vertical path, C-cross path, W-wall, S-starting point, J-jewel
+5 5 3 2
+W W S W W
+W C C C W
+W C W C C
+W W C C J
+J W W C J 

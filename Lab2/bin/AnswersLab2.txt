@@ -1,0 +1,61 @@
+Answers for Lab 2
+-----------------------------------------------
+
+
+
+EXERCISE 1
+
+1. Should instance variable interestRate be declared as static? Explain.
+	No. Every account needs different interest rate. And if we declare interestRate to be static we cannot have different interest rates.
+	
+2. Write the output from the test harness for class SavingsAccount. 
+	SavingsAccount: balance $115.0, interest rate 0.15
+
+
+
+EXERCISE 2
+
+3. Which method(s) of the class CheckingAccount demonstrate overriding? Which methods demonstrate overloading?
+	overriding: public void deposit(),
+				 public void withdraw(),
+				 public String toString();
+	Overloading: NA
+	
+4. Is bacc0 = chacc1 legal? Why?
+	Yes. ChekingAccount inherit from BankAccount, bacc0 can referenced to chacc1 as it is a superclass.
+	
+5. Is chacc1 = bacc1 legal? Why?
+	No. Because subclass can not referenced to the superclass.
+	
+6. On which variables bacc1, chacc1, sacc1 was the invocation to method
+deductFees() valid? Explain.
+	chacc1 was the invocation to the methods deducctFees() since the deductFee() method only exists in CheckingAccount instead of the other two classes.
+	
+7. Which compilation error(s) could be fixed through casting? Which one(s)
+could not be fixed? Why?
+	Type mismatch can be fixed by casting.
+	CheckingAccount and SavingAccount are two separate subclasses from BankAccount. 
+	These two accounts cannot be applies casting method to assign a value of one data type to the other.
+	
+8. Does the program run after deleting the line causing the compilation 
+error? If the program crashed, why did it crash?
+	No. BankAccount cannot be cast to CheckingAccount.	
+	
+9. What was the runtime error obtained when changing super.deposit(amount)
+to deposit(amount) in class CheckingAccount.java? 
+	It cause Stack OverFlow Error.
+	
+10. How many times is method deposit invoked?
+	It keeps hitting the deposit method.
+
+
+EXERCISE 3
+
+11. Why does the compiler issue an error message when invoking newAcc.getTransactionCount()? Why does the compiler issue an error message when invoking newAcc.getInterestRate()?
+	Because the default newAcc is BankAccount and it does not have getTransactionCount() or getInterestRate() methods.
+	
+12. Can you tell whether in the statement String accountInfo = newAcc.toString(); the
+method toString() being invoked is from the class CheckingAccount or from the class
+SavingsAccount? Explain your answer.
+	It is from BankAccount since it has a default data type which is BankAccount.
+	CheckingAccount or SavingAccount is determined in the if condition.

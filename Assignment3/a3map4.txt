@@ -1,0 +1,17 @@
+Second line: #rows, #columns #jewels bagSize. Other lines: H-horizontal path, V-vertical path, C-cross path, W-wall, S-starting point, J-jewel
+15 15 6 6
+C C C J C C C C C C J C C C C
+V W W V W W W C W W W V W W W
+V W W V W W W C W W W V W W W
+V W W V W W W C W W W V W W W
+V W W V W W W J W W W J W W W
+V W W J W W W C W W W V W W W
+V W W V W W W C W W W V W W W
+V W W C W W W C W W W V W W W
+V W W C C C C C C C C J W W W
+V W W V W W W C W W W V W W W
+V W W V W W W S W W W V W W W
+V W W V W W W V W W W V W W W
+V W W V W W W C W W W V W W W
+V W W V W W C C W W C V W W W
+V W W V W W V V W W V V W W W

@@ -1,0 +1,10 @@
+a3map1.txt 30 2
+
+a3map2.txt 200 5
+
+a3map3.txt 50 1
+
+a4map4.txt 100 3
+
+a5map5.txt 30 2
+
