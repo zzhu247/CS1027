@@ -14,7 +14,7 @@ Designed algorithm for a one-person version of Battleship game. Creating classes
 
 **Grade Received: 100%**
  
-## **Assignment 2%**
+## **Assignment 2**
 
 For this assignment, I designed algorithms for a candy collection game to find as many candies as possiable. Implemented using stacks and handelling exceptions.
 
@@ -180,6 +180,6 @@ methods.
 
 **Grade Received: 100%**
 
-How to navigate to files: Assignment X or Lab X --> src --> SomeFile.java
+*How to navigate to files: Assignment X or Lab X --> src --> SomeFile.java*
 
-I have also attached detailed descriptions in each file.
+*I have also attached detailed descriptions in each file.*
